@@ -31,8 +31,10 @@ namespace Yumeteo
             if (consumer.Food + FOOD_VALUE <= consumer.Food)
             {
                 consumer.Food += FOOD_VALUE;
-                //borrar aqui? 
+                //borrar aqui? o que borre quien reciba el true? 
+                return true;
             }
+            return false;
         }
     }
 }
