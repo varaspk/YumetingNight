@@ -4,8 +4,8 @@ using System.Text;
 
 namespace Yumeteo
 {
-    public class DirtTile : PlanetTile
+    // Definicion objeto base
+    public abstract class Item
     {
-
     }
 }

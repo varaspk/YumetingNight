@@ -7,5 +7,6 @@ namespace Yumeteo
     // Clase para tile planetario base
     public abstract class PlanetTile
     {
+        public PlanetLocation Location;
     }
 }

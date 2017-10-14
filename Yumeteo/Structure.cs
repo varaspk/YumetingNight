@@ -7,5 +7,6 @@ namespace Yumeteo
     //Clase de estructura planetaria base
     public abstract class Structure
     {
+        private StructureSize size;
     }
 }

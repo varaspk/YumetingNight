@@ -4,8 +4,8 @@ using System.Text;
 
 namespace Yumeteo
 {
-    public class DirtTile : PlanetTile
+    // Definicion para tile con stack de objetos
+    public class ItemStackTile : PlanetTile
     {
-
     }
 }
