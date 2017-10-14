@@ -31,7 +31,7 @@ namespace Yumeteo
             if (consumer.Food + FOOD_VALUE <= consumer.Food)
             {
                 consumer.Food += FOOD_VALUE;
-                //borrar aqui? o que borre quien reciba el true? 
+                //PawnManager llama a itemStackTile.pickUp().Consume() y si devuelve true llama a itemStackTile.remove();
                 return true;
             }
             return false;
